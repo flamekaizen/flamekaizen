@@ -28,10 +28,10 @@ jobs:
           config_timezone: Asia/Kolkata
           config_twemoji: yes
 
-          # Achievements plugin
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
+          # Achievements plugin (disabled — enable when account has more activity)
+          plugin_achievements: no
+          # plugin_achievements_display: compact
+          # plugin_achievements_threshold: C
 
           # Languages plugin
           plugin_languages: yes
@@ -50,12 +50,12 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 2
 
-          # Habits plugin
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
+          # Habits plugin (disabled — enable when account has more activity)
+          plugin_habits: no
+          # plugin_habits_from: 200
+          # plugin_habits_days: 14
+          # plugin_habits_facts: yes
+          # plugin_habits_charts: no
 
           # Introduction plugin
           plugin_introduction: yes
