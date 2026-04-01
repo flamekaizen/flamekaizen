@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -20,9 +22,9 @@ def save_animated_art():
     ax.set_zticks([])
     ax.axis('off')
 
-    # Generating a dynamic 3D neural-loss surface mathematically
-    X = np.arange(-5, 5, 0.2)
-    Y = np.arange(-5, 5, 0.2)
+    # Generating a dynamic 3D neural-loss surface mathematically (optimized mesh)
+    X = np.arange(-5, 5, 0.3)
+    Y = np.arange(-5, 5, 0.3)
     X, Y = np.meshgrid(X, Y)
     
     R = np.sqrt(X**2 + Y**2)
@@ -36,8 +38,8 @@ def save_animated_art():
         ax.view_init(elev=40., azim=frame)
         return fig,
 
-    # Render a 72-frame loop turning perfectly 360 degrees
-    ani = FuncAnimation(fig, update, frames=np.arange(0, 360, 5), interval=100)
+    # Render a simpler 36-frame loop for speed and stability
+    ani = FuncAnimation(fig, update, frames=np.arange(0, 360, 10), interval=100)
     
     # Export directly to high-quality recursive animated GIF
     ani.save('custom_art.gif', writer='pillow', fps=15)
