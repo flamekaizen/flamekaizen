@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 12 * * *" # Runs every day at 12:00 UTC
   workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - '**/*.svg'
 
 jobs:
   build:
