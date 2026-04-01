@@ -38,24 +38,24 @@
 
 ### 📊 GitHub Profile Overview
 <p align="center">
-  <img src="https://raw.githubusercontent.com/flamekaizen/flamekaizen/profile-summary-cards-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%">
+  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%">
 </p>
 
 <table align="center" style="border: none; background-color: transparent;">
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/flamekaizen/flamekaizen/profile-summary-cards-output/tokyonight/1-repo-stars.svg" alt="Starred Repos" width="100%">
+      <img src="profile-summary-card-output/tokyonight/1-repo-stars.svg" alt="Starred Repos" width="100%">
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/flamekaizen/flamekaizen/profile-summary-cards-output/tokyonight/2-most-commit-language.svg" alt="Commit Languages" width="100%">
+      <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Commit Languages" width="100%">
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/flamekaizen/flamekaizen/profile-summary-cards-output/tokyonight/3-stats.svg" alt="General Stats" width="100%">
+      <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="General Stats" width="100%">
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/flamekaizen/flamekaizen/profile-summary-cards-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="100%">
+      <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="100%">
     </td>
   </tr>
 </table>
