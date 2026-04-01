@@ -1,14 +1,36 @@
 <div align="center">
 
-<!-- Typing SVG Header -->
-<a href="https://github.com/flamekaizen">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=34&duration=2000&pause=500&color=F73859&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+flamekaizen;Machine+Learning+Engineer;Robotics+%2B+AI+Developer;Building+Intelligent+Systems" alt="Typing SVG" />
-</a>
+<!-- CAPSULE RENDER HEADER -->
+<!-- Cyberpunk Pink (Active) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F73859&height=250&section=header&text=flamekaizen&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20%7C%20Robotics%20Developer&descAlignY=55&descAlign=62" width="100%"/>
 
+<!-- ALTERNATIVE COLORS (To switch, just replace the img string above with one of these): -->
+<!-- Matrix Green: <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=250&section=header&text=flamekaizen&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20%7C%20Robotics%20Developer&descAlignY=55&descAlign=62" width="100%"/> -->
+<!-- Ocean Blue: <img src="https://capsule-render.vercel.app/api?type=waving&color=00B4D8&height=250&section=header&text=flamekaizen&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20%7C%20Robotics%20Developer&descAlignY=55&descAlign=62" width="100%"/> -->
+
+<br/>
+
+<!-- PROFILE VIEWS AND FOLLOWERS -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=flamekaizen&label=Profile%20Views&color=F73859&style=for-the-badge" alt="Views"/>
   <a href="https://github.com/flamekaizen?tab=followers"><img src="https://img.shields.io/github/followers/flamekaizen?label=Followers&style=for-the-badge&color=2ea043&logo=github" alt="Followers"></a>
 </p>
+
+<!-- TYPING SVG INTERACTIVE DESCRIPTION -->
+<a href="https://github.com/flamekaizen">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=F73859&center=true&vCenter=true&width=800&lines=Building+Intelligent+Systems;Deep+Learning+%2B+Computer+Vision;Robotics+and+Automation" alt="Typing SVG" />
+</a>
+
+<br/>
+<br/>
+
+### 🏆 GitHub Rank & Trophies
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=flamekaizen&theme=dracula&no-bg=true&no-frame=true&margin-w=15&column=7" alt="flamekaizen Trophies" />
+</a>
+
+<br/>
+<br/>
 
 ### 🛠️ Core Technologies
 <p align="center">
@@ -22,6 +44,13 @@
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+### 📉 GitHub Activity Insights
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="100%" />
+</a>
+
+<br/>
 
 <table align="center" style="border: none; background-color: transparent;">
   <tr>
