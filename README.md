@@ -1,14 +1,7 @@
 <div align="center">
 
 <!-- CAPSULE RENDER HEADER -->
-<!-- Cyberpunk Pink (Active) -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=F73859&height=250&section=header&text=flamekaizen&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20%7C%20Robotics%20Developer&descAlignY=55&descAlign=62" width="100%"/>
-
-<!-- ALTERNATIVE COLORS (To switch, just replace the img string above with one of these): -->
-<!-- Matrix Green: <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=250&section=header&text=flamekaizen&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20%7C%20Robotics%20Developer&descAlignY=55&descAlign=62" width="100%"/> -->
-<!-- Ocean Blue: <img src="https://capsule-render.vercel.app/api?type=waving&color=00B4D8&height=250&section=header&text=flamekaizen&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20%7C%20Robotics%20Developer&descAlignY=55&descAlign=62" width="100%"/> -->
-
-<br/>
 
 <!-- PROFILE VIEWS AND FOLLOWERS -->
 <p align="center">
@@ -20,14 +13,6 @@
 <a href="https://github.com/flamekaizen">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=F73859&center=true&vCenter=true&width=800&lines=Building+Intelligent+Systems;Deep+Learning+%2B+Computer+Vision;Robotics+and+Automation" alt="Typing SVG" />
 </a>
-
-<br/>
-<br/>
-
-### 🏆 GitHub Rank, Medals & Achievements
-<p align="center">
-  <img src="github-metrics.svg" alt="Detailed GitHub Metrics & Achievements" width="100%" />
-</p>
 
 <br/>
 <br/>
@@ -44,13 +29,6 @@
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
-
-### 📉 GitHub Activity Insights
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="100%" />
-</a>
-
-<br/>
 
 <table align="center" style="border: none; background-color: transparent;">
   <tr>
@@ -69,16 +47,18 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-<h3 align="center">📈 Real-Time GitHub Analytics</h3>
-<table align="center" style="border: none; background-color: transparent;">
-  <tr>
-    <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=flamekaizen&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats"></td>
-    <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=flamekaizen&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=flamekaizen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"></td>
-  </tr>
-</table>
+### 📉 GitHub Activity Insights
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="100%" />
+</a>
+
+<br/>
+
+<h3 align="center">📊 Real-Time GitHub Analytics & Habits</h3>
+<p align="center">
+  <img src="github-metrics.svg" alt="Detailed GitHub Metrics & Top Languages" />
+</p>
+<p align="center"><i>These stats are dynamically generated from the repository's GitHub Actions.</i></p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 

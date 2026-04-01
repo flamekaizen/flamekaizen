@@ -17,13 +17,26 @@ jobs:
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          # Base plugins to display basic stats
-          base: header, activity, community, repositories
           config_timezone: UTC
-          # Detailed Medals and Trophies (Xbox style!)
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
-          # Star and Fork stats
-          plugin_stars: yes
-          plugin_stars_limit: 4
+          
+          # Base plugins 
+          base: header, activity, community, repositories, metadata
+          
+          # Advanced Languages Plugin
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, jupyter notebook
+          plugin_languages_details: percentage
+          
+          # Deep Coding Habits (peak hours, daily commits)
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          
+          # Half-year isometric commit calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+          # Lines of Code History
+          plugin_lines: yes
