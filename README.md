@@ -24,12 +24,10 @@
 <br/>
 <br/>
 
-<!-- Trophies are temporarily commented out because the external trophy server is returning 500 Errors due to high traffic. It can be uncommented later!
-### 🏆 GitHub Rank & Trophies
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=flamekaizen&theme=dracula&no-bg=true&no-frame=true&margin-w=15&column=7" alt="flamekaizen Trophies" />
-</a>
--->
+### 🏆 GitHub Rank, Medals & Achievements
+<p align="center">
+  <img src="github-metrics.svg" alt="Detailed GitHub Metrics & Achievements" width="100%" />
+</p>
 
 <br/>
 <br/>
