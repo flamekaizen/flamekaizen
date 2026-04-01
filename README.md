@@ -30,35 +30,52 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
+### 🌌 3D Abstract Neural Network Architecture
+<img src="custom_art.gif" alt="Animated 3D Abstract Architecture" width="80%">
+<p align="center"><i>A rotating 3D loss surface procedurally animated in Python</i></p>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+### 📊 GitHub Profile Overview
+<p align="center">
+  <img src="profile-summary-cards-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%">
+</p>
+
 <table align="center" style="border: none; background-color: transparent;">
   <tr>
     <td align="center" width="50%">
-      <h3 align="center">🧠 Generative ML Plot</h3>
-      <img src="custom_art.svg" alt="Custom Mathematical Art" width="100%">
-      <p align="center"><i>Daily procedural rendering generated via Python</i></p>
+      <img src="profile-summary-cards-output/tokyonight/1-repo-stars.svg" alt="Starred Repos" width="100%">
     </td>
     <td align="center" width="50%">
-      <h3 align="center">🌐 Isometric Contributions</h3>
-      <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Profile Graph" width="100%">
-       <p align="center"><i>Daily auto-rendered 3D contribution map</i></p>
+      <img src="profile-summary-cards-output/tokyonight/2-most-commit-language.svg" alt="Commit Languages" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="profile-summary-cards-output/tokyonight/3-stats.svg" alt="General Stats" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="profile-summary-cards-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="100%">
     </td>
   </tr>
 </table>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-### 📉 GitHub Activity Insights
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="100%" />
-</a>
-
-<br/>
-
-<h3 align="center">📊 Real-Time GitHub Analytics & Habits</h3>
-<p align="center">
-  <img src="github-metrics.svg" alt="Detailed GitHub Metrics & Top Languages" />
-</p>
-<p align="center"><i>These stats are dynamically generated from the repository's GitHub Actions.</i></p>
+<table align="center" style="border: none; background-color: transparent;">
+  <tr>
+    <td align="center" width="50%">
+      <h3 align="center">📉 Daily Commit Activity</h3>
+      <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="100%" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <h3 align="center">🌐 Isometric Contributions</h3>
+      <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Profile Graph" width="100%">
+    </td>
+  </tr>
+</table>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
