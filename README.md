@@ -41,24 +41,15 @@
   <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%">
 </p>
 
-<table align="center" style="border: none; background-color: transparent;">
-  <tr>
-    <td align="center" width="50%">
-      <img src="profile-summary-card-output/tokyonight/1-repo-stars.svg" alt="Starred Repos" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Commit Languages" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="General Stats" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="100%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" width="49%">
+  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Commit Languages" width="49%">
+</p>
+
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="General Stats" width="49%">
+  <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="49%">
+</p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
