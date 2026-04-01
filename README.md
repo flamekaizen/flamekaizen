@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/flamekaizen">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2000&pause=500&color=F73859&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+flamekaizen+👋;Machine+Learning+%2B+Robotics+Developer;Building+Advanced+Systems+in+Python" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=30&duration=2000&pause=500&color=F73859&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+flamekaizen;Machine+Learning+%2B+Robotics+Developer;Building+Advanced+Systems" alt="Typing SVG" />
   </a>
 </div>
 
@@ -25,11 +25,11 @@
   <h2>📈 GitHub Metrics</h2>
   <table align="center" style="border: none;">
     <tr>
-      <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=flamekaizen&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="flamekaizen's GitHub stats"></td>
-      <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=flamekaizen&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages"></td>
+      <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=flamekaizen&show_icons=true&theme=tokyonight&hide_border=true" alt="flamekaizen's GitHub stats"></td>
+      <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=flamekaizen&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"></td>
     </tr>
     <tr>
-      <td colspan="2" align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=flamekaizen&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"></td>
+      <td colspan="2" align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=flamekaizen&theme=tokyonight&hide_border=true" alt="GitHub Streak"></td>
     </tr>
   </table>
 </div>
