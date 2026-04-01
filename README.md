@@ -19,13 +19,9 @@
 
 ### 🛠️ Core Technologies
 <p align="center">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="45" height="45"/> </a> &nbsp;
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="45" height="45"/> </a> &nbsp;
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" width="45" height="45"/> </a> &nbsp;
-  <a href="https://www.ros.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" alt="ros" width="45" height="45"/> </a> &nbsp;
-  <a href="https://cplusplus.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="45" height="45"/> </a> &nbsp;
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="45" height="45"/> </a> &nbsp;
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="45" height="45"/> </a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,ros,cpp,linux,git&theme=dark&perline=7" alt="Skill Icons" />
+  </a>
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
@@ -36,37 +32,21 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-### 📊 GitHub Profile Overview
+### 📊 GitHub Profile Analytics
+<!-- Minimalist, completely un-crammed professional stat block -->
 <p align="center">
   <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%">
 </p>
 
+<br/>
+
+<!-- Side-by-Side Borderless Analytics -->
 <p align="center">
-  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" width="49%">
-  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Commit Languages" width="49%">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="49%">
+  </a>
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contributions" width="49%">
 </p>
-
-<p align="center">
-  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="General Stats" width="49%">
-  <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="49%">
-</p>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
-
-<table align="center" style="border: none; background-color: transparent;">
-  <tr>
-    <td align="center" width="50%">
-      <h3 align="center">📉 Daily Commit Activity</h3>
-      <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="100%" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <h3 align="center">🌐 Isometric Contributions</h3>
-      <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Profile Graph" width="100%">
-    </td>
-  </tr>
-</table>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
