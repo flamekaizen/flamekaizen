@@ -1,17 +1,25 @@
 <div align="center">
 
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     🔥 FLAMEKAIZEN — HIGH-PERFORMANCE GITHUB PROFILE
+     Theme: Dark Mode | Accent: #F73859 Flame Red | BG: #0D1117
+     ═══════════════════════════════════════════════════════════════════════════ -->
+
 <!-- CAPSULE RENDER HEADER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=F73859&height=250&section=header&text=flamekaizen&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20%7C%20Robotics%20Developer&descAlignY=55&descAlign=62" width="100%"/>
 
 <!-- PROFILE VIEWS AND FOLLOWERS -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=flamekaizen&label=Profile%20Views&color=F73859&style=for-the-badge" alt="Views"/>
+  &nbsp;
   <a href="https://github.com/flamekaizen?tab=followers"><img src="https://img.shields.io/github/followers/flamekaizen?label=Followers&style=for-the-badge&color=2ea043&logo=github" alt="Followers"></a>
+  &nbsp;
+  <a href="https://github.com/flamekaizen?tab=repositories"><img src="https://img.shields.io/github/stars/flamekaizen?label=Total%20Stars&style=for-the-badge&color=58A6FF&logo=github" alt="Stars"></a>
 </p>
 
 <!-- TYPING SVG INTERACTIVE DESCRIPTION -->
 <a href="https://github.com/flamekaizen">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=F73859&center=true&vCenter=true&width=800&lines=Building+Intelligent+Systems;Deep+Learning+%2B+Computer+Vision;Robotics+and+Automation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=F73859&center=true&vCenter=true&width=800&lines=Building+Intelligent+Systems;Deep+Learning+%2B+Computer+Vision;Robotics+and+Automation;Open+Source+Contributor" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -26,29 +34,85 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     🏆 ACHIEVEMENT TROPHIES
+     ═══════════════════════════════════════════════════════════════════════════ -->
+
+### 🏆 GitHub Achievements
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=flamekaizen&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" width="100%"/>
+  </a>
+</p>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     🌌 GENERATIVE ART
+     ═══════════════════════════════════════════════════════════════════════════ -->
+
 ### 🌌 3D Abstract Neural Network Architecture
 <img src="custom_art.gif" alt="Animated 3D Abstract Architecture" width="80%">
 <p align="center"><i>A rotating 3D loss surface procedurally animated in Python</i></p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     📊 GITHUB PROFILE ANALYTICS — COMPREHENSIVE DASHBOARD
+     ═══════════════════════════════════════════════════════════════════════════ -->
+
 ### 📊 GitHub Profile Analytics
-<!-- Minimalist, completely un-crammed professional stat block -->
+
+<!-- ── TIER 1: Profile Overview (Full Width) ─────────────────────────────── -->
 <p align="center">
   <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%">
 </p>
 
 <br/>
 
-<!-- Side-by-Side Borderless Analytics -->
+<!-- ── TIER 2: Language & Commit Distribution (2×2 Grid) ──────────────────── -->
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos Per Language" width="49%">
+  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" width="49%">
+</p>
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="49%">
+  <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="49%">
+</p>
+
+<br/>
+
+<!-- ── TIER 3: Core Stats & Streak (Full Width Widgets) ──────────────────── -->
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=flamekaizen&show_icons=true&theme=tokyonight&bg_color=0D1117&hide_border=true&icon_color=F73859&title_color=F73859&text_color=C9D1D9&ring_color=F73859&include_all_commits=true&count_private=true" alt="GitHub Stats" width="49%"/>
+  </a>
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img src="https://streak-stats.demolab.com?user=flamekaizen&theme=tokyonight&hide_border=true&background=0D1117&stroke=F73859&ring=F73859&fire=F73859&currStreakLabel=F73859&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=58A6FF" alt="GitHub Streak" width="49%"/>
+  </a>
+</p>
+
+<br/>
+
+<!-- ── TIER 4: Activity Graph (Full Width — High Readability) ─────────────── -->
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=F73859&line=F73859&point=FFFFFF" alt="Activity Graph" width="49%">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=C9D1D9&line=F73859&point=F73859&area=true&area_color=F73859" alt="Contribution Activity Graph" width="100%"/>
   </a>
-  <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contributions" width="49%">
+</p>
+
+<br/>
+
+<!-- ── TIER 5: 3D Isometric Contribution Map (Full Width) ─────────────────── -->
+<p align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Isometric Contribution Map" width="100%">
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     🐍 CONTRIBUTION SNAKE
+     ═══════════════════════════════════════════════════════════════════════════ -->
 
 <h3 align="center">🐍 Continuous Contribution Snake</h3>
 <picture>
@@ -57,4 +121,8 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/flamekaizen/flamekaizen/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
+<!-- CAPSULE RENDER FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F73859&height=120&section=footer" width="100%"/>
+
 </div>
+
