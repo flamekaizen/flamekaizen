@@ -34,4 +34,4 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add custom_art.gif
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Render updated 3D Animated profile GIF" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Render updated 3D Animated profile GIF" && git pull --rebase && git push)
