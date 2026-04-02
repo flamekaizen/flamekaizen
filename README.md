@@ -65,35 +65,7 @@
 
 ### 📊 GitHub Profile Analytics
 
-<!-- ── TIER 1: Profile Overview (Full Width) ─────────────────────────────── -->
-<p align="center">
-  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%">
-</p>
-
-<br/>
-
-<!-- ── TIER 2: Language & Commit Distribution (2×2 Grid) ──────────────────── -->
-<p align="center">
-  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos Per Language" width="49%">
-  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" width="49%">
-</p>
-<p align="center">
-  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="49%">
-  <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="49%">
-</p>
-
-<br/>
-
-<!-- ── TIER 3: Streak Stats (Full Width) ──────────────────────────────────── -->
-<p align="center">
-  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-    <img src="https://streak-stats.demolab.com?user=flamekaizen&theme=tokyonight&hide_border=true&background=0D1117&stroke=F73859&ring=F73859&fire=F73859&currStreakLabel=F73859&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=58A6FF" alt="GitHub Streak" width="60%"/>
-  </a>
-</p>
-
-<br/>
-
-<!-- ── TIER 4: Activity Graph (Full Width — High Readability) ─────────────── -->
+<!-- ── Activity Graph (Full Width — High Readability) ─────────────── -->
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=flamekaizen&theme=react-dark&bg_color=0D1117&hide_border=true&color=C9D1D9&line=F73859&point=F73859&area=true&area_color=F73859" alt="Contribution Activity Graph" width="100%"/>
