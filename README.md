@@ -33,7 +33,7 @@
 </p>
 <p align="center">
   <a href="https://linkedin.com/in/flamekaizen"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/flamekaizenx"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://x.com/flamekaizenx"><img src="https://img.shields.io/badge/X.COM-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://flamekaizen.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white&badgeColor=F73859" alt="Portfolio"></a>
   <a href="mailto:kaizentechrk@gmail.com"><img src="https://img.shields.io/badge/Email-F73859?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
