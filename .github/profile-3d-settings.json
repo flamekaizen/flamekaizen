@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-flame.svg",
+  "backgroundColor": "#0D1117",
+  "foregroundColor": "#C9D1D9",
+  "strongColor": "#F73859",
+  "weakColor": "#8B949E",
+  "radarColor": "#F73859",
+  "growingAnimation": true,
+  "contribColors": ["#1B2028", "#6E1A2A", "#A3253D", "#D72F4F", "#FF5C7A"]
+}

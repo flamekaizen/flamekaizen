@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="306" viewBox="0 0 900 306" role="img" aria-label="Output DNA">
+<title>Output DNA — what the work is made of · languages &amp; contribution types</title>
+
+<style>
+  .t  { font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill:#C9D1D9; }
+  .m  { font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#8B949E; }
+  .h  { font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#F0F6FC; font-weight:700; letter-spacing:2px; }
+  .v  { font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#F0F6FC; font-weight:700; }
+  .lbl{ font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#8B949E; font-size:10px; letter-spacing:1.2px; }
+  .fade { animation: fade .9s ease-out both; }
+  .grow { transform-box: fill-box; transform-origin: 50% 100%; animation: grow 1s cubic-bezier(.2,.8,.2,1) both; }
+  .growx{ transform-box: fill-box; transform-origin: 0% 50%;  animation: growx 1.1s cubic-bezier(.2,.8,.2,1) both; }
+  .draw { stroke-dasharray: 1; animation: draw 2.2s ease-out both; }
+  .pulse{ animation: pulse 1.6s ease-in-out infinite; }
+  .scan { animation: scan 6s linear infinite; }
+  @keyframes fade  { from { opacity:0; } }
+  @keyframes grow  { from { transform: scaleY(0); } }
+  @keyframes growx { from { transform: scaleX(0); } }
+  @keyframes draw  { from { stroke-dashoffset: 1; } }
+  @keyframes pulse { 50% { opacity:.25; } }
+  @keyframes scan  { from { transform: translateY(-40px); } to { transform: translateY(var(--h)); } }
+</style>
+<defs>
+  <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#21262D" stroke-width=".5" opacity=".55"/></pattern>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F73859" stop-opacity="0"/><stop offset="1" stop-color="#F73859" stop-opacity=".07"/></linearGradient>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F73859" stop-opacity=".45"/><stop offset="1" stop-color="#F73859" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F73859"/><stop offset="1" stop-color="#7D1D31"/></linearGradient>
+  <linearGradient id="barx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7D1D31"/><stop offset="1" stop-color="#F73859"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="frame"><rect x="1" y="1" width="898" height="304" rx="8"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="899" height="305" rx="8" fill="#0D1117" stroke="#30363D"/>
+<g clip-path="url(#frame)">
+  <rect width="900" height="306" fill="url(#g)"/>
+  <rect class="scan" style="--h:306px" x="0" y="0" width="900" height="40" fill="url(#scan)"/>
+</g>
+<path d="M1.5 14 V1.5 H14 M886 1.5 H898.5 V14 M898.5 292 V304.5 H886 M14 304.5 H1.5 V292" stroke="#F73859" stroke-width="2" fill="none"/>
+<g class="fade">
+  <circle class="pulse" cx="24" cy="27" r="4" fill="#F73859" filter="url(#glow)"/>
+  <text x="36.0" y="31.0" class="h" font-size="13" text-anchor="start" >OUTPUT DNA</text>
+  <text x="36.0" y="47.0" class="m" font-size="10.5" text-anchor="start" >what the work is made of · languages &amp; contribution types</text>
+  <text x="878.0" y="31.0" class="m" font-size="10" text-anchor="end" fill="#F73859" letter-spacing="1.5">MOD-04 // COMPOSITION</text>
+  <text x="878.0" y="47.0" class="m" font-size="9" text-anchor="end" >SYNC 2026-11-13 03:20 UTC</text>
+  <line x1="20" y1="58" x2="880" y2="58" stroke="#30363D"/>
+  <line x1="20" y1="58" x2="90" y2="58" stroke="#F73859" stroke-width="2"/>
+</g>
+<text x="22.0" y="82.0" class="lbl" font-size="9" text-anchor="start" fill="#F73859" >LANGUAGE SPECTRUM</text>
+<clipPath id="sb"><rect x="22" y="92" width="478" height="6" rx="3"/></clipPath><g class="growx"><g clip-path="url(#sb)"><rect x="22.00" y="92" width="136.72" height="6" fill="#3572A5"/><rect x="160.22" y="92" width="119.99" height="6" fill="#DA5B0B"/><rect x="281.71" y="92" width="46.24" height="6" fill="#3178c6"/><rect x="329.45" y="92" width="40.82" height="6" fill="#3D6117"/><rect x="371.77" y="92" width="37.68" height="6" fill="#f1e05a"/><rect x="410.96" y="92" width="24.14" height="6" fill="#e34c26"/><rect x="436.59" y="92" width="23.66" height="6" fill="#555555"/><rect x="461.75" y="92" width="22.49" height="6" fill="#b07219"/><rect x="485.74" y="92" width="12.76" height="6" fill="#30363D"/></g></g>
+<g class="fade" style="animation-delay:0.00s"><circle cx="27" cy="122.0" r="4" fill="#3572A5"/><text x="38.0" y="126.0" class="t" font-size="11.5" text-anchor="start" >Python</text><rect x="162" y="118.0" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="118.0" width="286.00" height="5" rx="2.5" fill="#F73859" opacity="1.00"/><text x="500.0" y="126.0" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >28.9%</text></g>
+<g class="fade" style="animation-delay:0.06s"><circle cx="27" cy="141.5" r="4" fill="#DA5B0B"/><text x="38.0" y="145.5" class="t" font-size="11.5" text-anchor="start" >Jupyter Notebook</text><rect x="162" y="137.5" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="137.5" width="251.38" height="5" rx="2.5" fill="#F73859" opacity="0.93"/><text x="500.0" y="145.5" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >25.4%</text></g>
+<g class="fade" style="animation-delay:0.12s"><circle cx="27" cy="161.0" r="4" fill="#3178c6"/><text x="38.0" y="165.0" class="t" font-size="11.5" text-anchor="start" >TypeScript</text><rect x="162" y="157.0" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="157.0" width="98.77" height="5" rx="2.5" fill="#F73859" opacity="0.86"/><text x="500.0" y="165.0" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >10.0%</text></g>
+<g class="fade" style="animation-delay:0.18s"><circle cx="27" cy="180.5" r="4" fill="#3D6117"/><text x="38.0" y="184.5" class="t" font-size="11.5" text-anchor="start" >TeX</text><rect x="162" y="176.5" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="176.5" width="87.57" height="5" rx="2.5" fill="#F73859" opacity="0.79"/><text x="500.0" y="184.5" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >8.9%</text></g>
+<g class="fade" style="animation-delay:0.24s"><circle cx="27" cy="200.0" r="4" fill="#f1e05a"/><text x="38.0" y="204.0" class="t" font-size="11.5" text-anchor="start" >JavaScript</text><rect x="162" y="196.0" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="196.0" width="81.08" height="5" rx="2.5" fill="#F73859" opacity="0.72"/><text x="500.0" y="204.0" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >8.2%</text></g>
+<g class="fade" style="animation-delay:0.30s"><circle cx="27" cy="219.5" r="4" fill="#e34c26"/><text x="38.0" y="223.5" class="t" font-size="11.5" text-anchor="start" >HTML</text><rect x="162" y="215.5" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="215.5" width="53.05" height="5" rx="2.5" fill="#F73859" opacity="0.65"/><text x="500.0" y="223.5" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >5.4%</text></g>
+<g class="fade" style="animation-delay:0.36s"><circle cx="27" cy="239.0" r="4" fill="#555555"/><text x="38.0" y="243.0" class="t" font-size="11.5" text-anchor="start" >C</text><rect x="162" y="235.0" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="235.0" width="52.06" height="5" rx="2.5" fill="#F73859" opacity="0.58"/><text x="500.0" y="243.0" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >5.3%</text></g>
+<g class="fade" style="animation-delay:0.42s"><circle cx="27" cy="258.5" r="4" fill="#b07219"/><text x="38.0" y="262.5" class="t" font-size="11.5" text-anchor="start" >Java</text><rect x="162" y="254.5" width="286" height="5" rx="2.5" fill="#21262D"/><rect class="growx" x="162" y="254.5" width="49.65" height="5" rx="2.5" fill="#F73859" opacity="0.51"/><text x="500.0" y="262.5" class="m" font-size="10.5" text-anchor="end" fill="#C9D1D9" >5.0%</text></g>
+<text x="22.0" y="290.0" class="m" font-size="9" text-anchor="start" >repo-normalised · 19 repos · 13 languages detected</text>
+<line x1="525" y1="76" x2="525" y2="284" stroke="#21262D"/>
+<text x="550.0" y="82.0" class="lbl" font-size="9" text-anchor="start" fill="#F73859" >CONTRIBUTION MIX</text>
+<clipPath id="cb"><rect x="550" y="92" width="328" height="6" rx="3"/></clipPath><g class="growx"><g clip-path="url(#cb)"><rect x="550.00" y="92" width="239.96" height="6" fill="#F73859"/><rect x="791.46" y="92" width="71.15" height="6" fill="#C92D4A"/><rect x="864.11" y="92" width="11.32" height="6" fill="#9B2339"/><rect x="876.93" y="92" width="0.80" height="6" fill="#FF8A5B"/></g></g>
+<g class="fade" style="animation-delay:0.20s"><rect x="550" y="117" width="10" height="10" rx="2" fill="#F73859"/><text x="568.0" y="126.0" class="t" font-size="11.5" text-anchor="start" >Private work</text><text x="822.0" y="126.0" class="v" font-size="12" text-anchor="end" >226</text><text x="878.0" y="126.0" class="m" font-size="10.5" text-anchor="end" >73.6%</text></g>
+<g class="fade" style="animation-delay:0.27s"><rect x="550" y="143" width="10" height="10" rx="2" fill="#C92D4A"/><text x="568.0" y="152.0" class="t" font-size="11.5" text-anchor="start" >Commits</text><text x="822.0" y="152.0" class="v" font-size="12" text-anchor="end" >68</text><text x="878.0" y="152.0" class="m" font-size="10.5" text-anchor="end" >22.1%</text></g>
+<g class="fade" style="animation-delay:0.34s"><rect x="550" y="169" width="10" height="10" rx="2" fill="#9B2339"/><text x="568.0" y="178.0" class="t" font-size="11.5" text-anchor="start" >Repos created</text><text x="822.0" y="178.0" class="v" font-size="12" text-anchor="end" >12</text><text x="878.0" y="178.0" class="m" font-size="10.5" text-anchor="end" >3.9%</text></g>
+<g class="fade" style="animation-delay:0.41s"><rect x="550" y="195" width="10" height="10" rx="2" fill="#FF8A5B"/><text x="568.0" y="204.0" class="t" font-size="11.5" text-anchor="start" >Issues</text><text x="822.0" y="204.0" class="v" font-size="12" text-anchor="end" >1</text><text x="878.0" y="204.0" class="m" font-size="10.5" text-anchor="end" >0.3%</text></g>
+<text x="550.0" y="290.0" class="m" font-size="9" text-anchor="start" >lifetime · 307 events by type</text>
+</svg>
