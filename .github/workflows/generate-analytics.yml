@@ -43,5 +43,5 @@ jobs:
           git add analytics/
           git diff --staged --quiet && exit 0
           git commit -m "Update profile analytics - [Skip GitHub Action]"
-          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep $((RANDOM % 10 + 5)); done
           exit 1
