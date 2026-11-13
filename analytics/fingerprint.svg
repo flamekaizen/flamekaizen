@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="300" viewBox="0 0 445 300" role="img" aria-label="Temporal Fingerprint">
+<title>Temporal Fingerprint — when work happens · last 12 months</title>
+
+<style>
+  .t  { font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill:#C9D1D9; }
+  .m  { font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#8B949E; }
+  .h  { font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#F0F6FC; font-weight:700; letter-spacing:2px; }
+  .v  { font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#F0F6FC; font-weight:700; }
+  .lbl{ font-family:'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill:#8B949E; font-size:10px; letter-spacing:1.2px; }
+  .fade { animation: fade .9s ease-out both; }
+  .grow { transform-box: fill-box; transform-origin: 50% 100%; animation: grow 1s cubic-bezier(.2,.8,.2,1) both; }
+  .growx{ transform-box: fill-box; transform-origin: 0% 50%;  animation: growx 1.1s cubic-bezier(.2,.8,.2,1) both; }
+  .draw { stroke-dasharray: 1; animation: draw 2.2s ease-out both; }
+  .pulse{ animation: pulse 1.6s ease-in-out infinite; }
+  .scan { animation: scan 6s linear infinite; }
+  @keyframes fade  { from { opacity:0; } }
+  @keyframes grow  { from { transform: scaleY(0); } }
+  @keyframes growx { from { transform: scaleX(0); } }
+  @keyframes draw  { from { stroke-dashoffset: 1; } }
+  @keyframes pulse { 50% { opacity:.25; } }
+  @keyframes scan  { from { transform: translateY(-40px); } to { transform: translateY(var(--h)); } }
+</style>
+<defs>
+  <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#21262D" stroke-width=".5" opacity=".55"/></pattern>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F73859" stop-opacity="0"/><stop offset="1" stop-color="#F73859" stop-opacity=".07"/></linearGradient>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F73859" stop-opacity=".45"/><stop offset="1" stop-color="#F73859" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F73859"/><stop offset="1" stop-color="#7D1D31"/></linearGradient>
+  <linearGradient id="barx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7D1D31"/><stop offset="1" stop-color="#F73859"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="frame"><rect x="1" y="1" width="443" height="298" rx="8"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="444" height="299" rx="8" fill="#0D1117" stroke="#30363D"/>
+<g clip-path="url(#frame)">
+  <rect width="445" height="300" fill="url(#g)"/>
+  <rect class="scan" style="--h:300px" x="0" y="0" width="445" height="40" fill="url(#scan)"/>
+</g>
+<path d="M1.5 14 V1.5 H14 M431 1.5 H443.5 V14 M443.5 286 V298.5 H431 M14 298.5 H1.5 V286" stroke="#F73859" stroke-width="2" fill="none"/>
+<g class="fade">
+  <circle class="pulse" cx="24" cy="27" r="4" fill="#F73859" filter="url(#glow)"/>
+  <text x="36.0" y="31.0" class="h" font-size="13" text-anchor="start" >TEMPORAL FINGERPRINT</text>
+  <text x="36.0" y="47.0" class="m" font-size="10.5" text-anchor="start" >when work happens · last 12 months</text>
+  <text x="423.0" y="31.0" class="m" font-size="10" text-anchor="end" fill="#F73859" letter-spacing="1.5">MOD-03</text>
+  <text x="423.0" y="47.0" class="m" font-size="9" text-anchor="end" >SYNC 2026-11-13 03:07 UTC</text>
+  <line x1="20" y1="58" x2="425" y2="58" stroke="#30363D"/>
+  <line x1="20" y1="58" x2="90" y2="58" stroke="#F73859" stroke-width="2"/>
+</g>
+<text x="48.0" y="97.0" class="m" font-size="10" text-anchor="end" >Mon</text>
+<rect class="fade" style="animation-delay:0.00s" x="59.50" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · Dec 2025: 0</title></rect>
+<rect class="fade" style="animation-delay:0.03s" x="89.92" y="83.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Mon · Jan 2026: 8</title></rect>
+<rect class="fade" style="animation-delay:0.06s" x="120.33" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · Feb 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.09s" x="150.75" y="83.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Mon · Mar 2026: 8</title></rect>
+<rect class="fade" style="animation-delay:0.12s" x="181.17" y="83.5" width="27.42" height="18" rx="3" fill="#7D1D31"><title>Mon · Apr 2026: 2</title></rect>
+<rect class="fade" style="animation-delay:0.15s" x="211.58" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · May 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.18s" x="242.00" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · Jun 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.21s" x="272.42" y="83.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Mon · Jul 2026: 35</title></rect>
+<rect class="fade" style="animation-delay:0.24s" x="302.83" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · Aug 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.27s" x="333.25" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · Sep 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.30s" x="363.67" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · Oct 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.33s" x="394.08" y="83.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Mon · Nov 2026: 0</title></rect>
+<text x="48.0" y="118.0" class="m" font-size="10" text-anchor="end" >Tue</text>
+<rect class="fade" style="animation-delay:0.03s" x="59.50" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Dec 2025: 0</title></rect>
+<rect class="fade" style="animation-delay:0.06s" x="89.92" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Jan 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.09s" x="120.33" y="104.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Tue · Feb 2026: 3</title></rect>
+<rect class="fade" style="animation-delay:0.12s" x="150.75" y="104.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Tue · Mar 2026: 4</title></rect>
+<rect class="fade" style="animation-delay:0.15s" x="181.17" y="104.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Tue · Apr 2026: 5</title></rect>
+<rect class="fade" style="animation-delay:0.18s" x="211.58" y="104.5" width="27.42" height="18" rx="3" fill="#4A1420"><title>Tue · May 2026: 1</title></rect>
+<rect class="fade" style="animation-delay:0.21s" x="242.00" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Jun 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.24s" x="272.42" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Jul 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.27s" x="302.83" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Aug 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.30s" x="333.25" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Sep 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.33s" x="363.67" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Oct 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.36s" x="394.08" y="104.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Tue · Nov 2026: 0</title></rect>
+<text x="48.0" y="139.0" class="m" font-size="10" text-anchor="end" >Wed</text>
+<rect class="fade" style="animation-delay:0.06s" x="59.50" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Dec 2025: 0</title></rect>
+<rect class="fade" style="animation-delay:0.09s" x="89.92" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Jan 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.12s" x="120.33" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Feb 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.15s" x="150.75" y="125.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Wed · Mar 2026: 11</title></rect>
+<rect class="fade" style="animation-delay:0.18s" x="181.17" y="125.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Wed · Apr 2026: 3</title></rect>
+<rect class="fade" style="animation-delay:0.21s" x="211.58" y="125.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Wed · May 2026: 5</title></rect>
+<rect class="fade" style="animation-delay:0.24s" x="242.00" y="125.5" width="27.42" height="18" rx="3" fill="#4A1420"><title>Wed · Jun 2026: 1</title></rect>
+<rect class="fade" style="animation-delay:0.27s" x="272.42" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Jul 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.30s" x="302.83" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Aug 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.33s" x="333.25" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Sep 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.36s" x="363.67" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Oct 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.39s" x="394.08" y="125.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Wed · Nov 2026: 0</title></rect>
+<text x="48.0" y="160.0" class="m" font-size="10" text-anchor="end" >Thu</text>
+<rect class="fade" style="animation-delay:0.09s" x="59.50" y="146.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Thu · Dec 2025: 3</title></rect>
+<rect class="fade" style="animation-delay:0.12s" x="89.92" y="146.5" width="27.42" height="18" rx="3" fill="#7D1D31"><title>Thu · Jan 2026: 2</title></rect>
+<rect class="fade" style="animation-delay:0.15s" x="120.33" y="146.5" width="27.42" height="18" rx="3" fill="#7D1D31"><title>Thu · Feb 2026: 2</title></rect>
+<rect class="fade" style="animation-delay:0.18s" x="150.75" y="146.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Thu · Mar 2026: 8</title></rect>
+<rect class="fade" style="animation-delay:0.21s" x="181.17" y="146.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Thu · Apr 2026: 37</title></rect>
+<rect class="fade" style="animation-delay:0.24s" x="211.58" y="146.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Thu · May 2026: 6</title></rect>
+<rect class="fade" style="animation-delay:0.27s" x="242.00" y="146.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Thu · Jun 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.30s" x="272.42" y="146.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Thu · Jul 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.33s" x="302.83" y="146.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Thu · Aug 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.36s" x="333.25" y="146.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Thu · Sep 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.39s" x="363.67" y="146.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Thu · Oct 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.42s" x="394.08" y="146.5" width="27.42" height="18" rx="3" fill="#4A1420"><title>Thu · Nov 2026: 1</title></rect>
+<text x="48.0" y="181.0" class="m" font-size="10" text-anchor="end" >Fri</text>
+<rect class="fade" style="animation-delay:0.12s" x="59.50" y="167.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Fri · Dec 2025: 0</title></rect>
+<rect class="fade" style="animation-delay:0.15s" x="89.92" y="167.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Fri · Jan 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.18s" x="120.33" y="167.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Fri · Feb 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.21s" x="150.75" y="167.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Fri · Mar 2026: 7</title></rect>
+<rect class="fade" style="animation-delay:0.24s" x="181.17" y="167.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Fri · Apr 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.27s" x="211.58" y="167.5" width="27.42" height="18" rx="3" fill="#4A1420"><title>Fri · May 2026: 1</title></rect>
+<rect class="fade" style="animation-delay:0.30s" x="242.00" y="167.5" width="27.42" height="18" rx="3" fill="#7D1D31"><title>Fri · Jun 2026: 2</title></rect>
+<rect class="fade" style="animation-delay:0.33s" x="272.42" y="167.5" width="27.42" height="18" rx="3" fill="#7D1D31"><title>Fri · Jul 2026: 2</title></rect>
+<rect class="fade" style="animation-delay:0.36s" x="302.83" y="167.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Fri · Aug 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.39s" x="333.25" y="167.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Fri · Sep 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.42s" x="363.67" y="167.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Fri · Oct 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.45s" x="394.08" y="167.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Fri · Nov 2026: 9</title></rect>
+<text x="48.0" y="202.0" class="m" font-size="10" text-anchor="end" >Sat</text>
+<rect class="fade" style="animation-delay:0.15s" x="59.50" y="188.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sat · Dec 2025: 0</title></rect>
+<rect class="fade" style="animation-delay:0.18s" x="89.92" y="188.5" width="27.42" height="18" rx="3" fill="#7D1D31"><title>Sat · Jan 2026: 2</title></rect>
+<rect class="fade" style="animation-delay:0.21s" x="120.33" y="188.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sat · Feb 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.24s" x="150.75" y="188.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sat · Mar 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.27s" x="181.17" y="188.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sat · Apr 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.30s" x="211.58" y="188.5" width="27.42" height="18" rx="3" fill="#7D1D31"><title>Sat · May 2026: 2</title></rect>
+<rect class="fade" style="animation-delay:0.33s" x="242.00" y="188.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Sat · Jun 2026: 3</title></rect>
+<rect class="fade" style="animation-delay:0.36s" x="272.42" y="188.5" width="27.42" height="18" rx="3" fill="#4A1420"><title>Sat · Jul 2026: 1</title></rect>
+<rect class="fade" style="animation-delay:0.39s" x="302.83" y="188.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sat · Aug 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.42s" x="333.25" y="188.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sat · Sep 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.45s" x="363.67" y="188.5" width="27.42" height="18" rx="3" fill="#4A1420"><title>Sat · Oct 2026: 1</title></rect>
+<rect class="fade" style="animation-delay:0.48s" x="394.08" y="188.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sat · Nov 2026: 0</title></rect>
+<text x="48.0" y="223.0" class="m" font-size="10" text-anchor="end" >Sun</text>
+<rect class="fade" style="animation-delay:0.18s" x="59.50" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Dec 2025: 0</title></rect>
+<rect class="fade" style="animation-delay:0.21s" x="89.92" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Jan 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.24s" x="120.33" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Feb 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.27s" x="150.75" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Mar 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.30s" x="181.17" y="209.5" width="27.42" height="18" rx="3" fill="#B82843"><title>Sun · Apr 2026: 3</title></rect>
+<rect class="fade" style="animation-delay:0.33s" x="211.58" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · May 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.36s" x="242.00" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Jun 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.39s" x="272.42" y="209.5" width="27.42" height="18" rx="3" fill="#F73859"><title>Sun · Jul 2026: 47</title></rect>
+<rect class="fade" style="animation-delay:0.42s" x="302.83" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Aug 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.45s" x="333.25" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Sep 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.48s" x="363.67" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Oct 2026: 0</title></rect>
+<rect class="fade" style="animation-delay:0.51s" x="394.08" y="209.5" width="27.42" height="18" rx="3" fill="#161B22"><title>Sun · Nov 2026: 0</title></rect>
+<text x="73.2" y="244.0" class="m" font-size="9" text-anchor="middle" >Dec</text>
+<text x="103.6" y="244.0" class="m" font-size="9" text-anchor="middle" >Jan</text>
+<text x="134.0" y="244.0" class="m" font-size="9" text-anchor="middle" >Feb</text>
+<text x="164.5" y="244.0" class="m" font-size="9" text-anchor="middle" >Mar</text>
+<text x="194.9" y="244.0" class="m" font-size="9" text-anchor="middle" >Apr</text>
+<text x="225.3" y="244.0" class="m" font-size="9" text-anchor="middle" >May</text>
+<text x="255.7" y="244.0" class="m" font-size="9" text-anchor="middle" >Jun</text>
+<text x="286.1" y="244.0" class="m" font-size="9" text-anchor="middle" >Jul</text>
+<text x="316.5" y="244.0" class="m" font-size="9" text-anchor="middle" >Aug</text>
+<text x="347.0" y="244.0" class="m" font-size="9" text-anchor="middle" >Sep</text>
+<text x="377.4" y="244.0" class="m" font-size="9" text-anchor="middle" >Oct</text>
+<text x="407.8" y="244.0" class="m" font-size="9" text-anchor="middle" >Nov</text>
+<text x="313.0" y="285.0" class="m" font-size="9" text-anchor="end" >less</text>
+<rect x="319" y="276" width="11" height="11" rx="2" fill="#161B22"/>
+<rect x="333" y="276" width="11" height="11" rx="2" fill="#4A1420"/>
+<rect x="347" y="276" width="11" height="11" rx="2" fill="#7D1D31"/>
+<rect x="361" y="276" width="11" height="11" rx="2" fill="#B82843"/>
+<rect x="375" y="276" width="11" height="11" rx="2" fill="#F73859"/>
+<text x="391.0" y="285.0" class="m" font-size="9" text-anchor="start" >more</text>
+<text x="22.0" y="285.0" class="m" font-size="9" text-anchor="start" >weekday × month · quartile-scaled</text>
+</svg>

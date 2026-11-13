@@ -1,0 +1,47 @@
+name: Generate Profile Analytics
+
+# Self-hosted analytics panels (replaces third-party widgets such as the
+# contribution activity graph, whose hosted service went offline).
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - "scripts/generate_analytics.py"
+      - ".github/workflows/generate-analytics.yml"
+
+concurrency:
+  group: profile-analytics
+  cancel-in-progress: true
+
+jobs:
+  analytics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render analytics SVGs
+        env:
+          # A PAT (METRICS_TOKEN) includes private-contribution counts; falls back to the repo token.
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_analytics.py "${{ github.repository_owner }}"
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add analytics/
+          git diff --staged --quiet && exit 0
+          git commit -m "Update profile analytics - [Skip GitHub Action]"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
