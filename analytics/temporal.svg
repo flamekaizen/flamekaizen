@@ -40,7 +40,7 @@
   <text x="36.0" y="31.0" class="h" font-size="13" text-anchor="start" >TEMPORAL FINGERPRINT</text>
   <text x="36.0" y="47.0" class="m" font-size="10.5" text-anchor="start" >when the work happens · weekday × month, last 12 months</text>
   <text x="878.0" y="31.0" class="m" font-size="10" text-anchor="end" fill="#F73859" letter-spacing="1.5">MOD-03 // RHYTHM</text>
-  <text x="878.0" y="47.0" class="m" font-size="9" text-anchor="end" >SYNC 2026-11-13 03:20 UTC</text>
+  <text x="878.0" y="47.0" class="m" font-size="9" text-anchor="end" >SYNC 2026-11-13 03:21 UTC</text>
   <line x1="20" y1="58" x2="880" y2="58" stroke="#30363D"/>
   <line x1="20" y1="58" x2="90" y2="58" stroke="#F73859" stroke-width="2"/>
 </g>
@@ -108,7 +108,7 @@
 <rect class="fade" style="animation-delay:0.30s" x="406.17" y="177.5" width="40.33" height="21" rx="3" fill="#161B22"><title>Fri · Aug 2026: 0</title></rect>
 <rect class="fade" style="animation-delay:0.33s" x="449.50" y="177.5" width="40.33" height="21" rx="3" fill="#161B22"><title>Fri · Sep 2026: 0</title></rect>
 <rect class="fade" style="animation-delay:0.35s" x="492.83" y="177.5" width="40.33" height="21" rx="3" fill="#161B22"><title>Fri · Oct 2026: 0</title></rect>
-<rect class="fade" style="animation-delay:0.38s" x="536.17" y="177.5" width="40.33" height="21" rx="3" fill="#F73859"><title>Fri · Nov 2026: 10</title></rect>
+<rect class="fade" style="animation-delay:0.38s" x="536.17" y="177.5" width="40.33" height="21" rx="3" fill="#F73859"><title>Fri · Nov 2026: 11</title></rect>
 <text x="48.0" y="216.0" class="m" font-size="10" text-anchor="end" >Sat</text>
 <rect class="fade" style="animation-delay:0.12s" x="59.50" y="201.5" width="40.33" height="21" rx="3" fill="#161B22"><title>Sat · Dec 2025: 0</title></rect>
 <rect class="fade" style="animation-delay:0.15s" x="102.83" y="201.5" width="40.33" height="21" rx="3" fill="#7D1D31"><title>Sat · Jan 2026: 2</title></rect>
@@ -157,25 +157,25 @@
 <text x="604.0" y="74.0" class="lbl" font-size="8.5" text-anchor="start" >SHARE BY WEEKDAY</text>
 <rect x="604" y="86" width="110" height="10" rx="2" fill="#21262D"/>
 <rect class="growx" x="604" y="86" width="98.81" height="10" rx="2" fill="#F73859" opacity="0.5"/>
-<text x="722.0" y="95.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >23.5%</text>
+<text x="722.0" y="95.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >23.3%</text>
 <rect x="604" y="110" width="110" height="10" rx="2" fill="#21262D"/>
 <rect class="growx" x="604" y="110" width="24.24" height="10" rx="2" fill="#F73859" opacity="0.5"/>
-<text x="722.0" y="119.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >5.8%</text>
+<text x="722.0" y="119.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >5.7%</text>
 <rect x="604" y="134" width="110" height="10" rx="2" fill="#21262D"/>
 <rect class="growx" x="604" y="134" width="37.29" height="10" rx="2" fill="#F73859" opacity="0.5"/>
 <text x="722.0" y="143.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >8.8%</text>
 <rect x="604" y="158" width="110" height="10" rx="2" fill="#21262D"/>
 <rect class="growx" x="604" y="158" width="110.00" height="10" rx="2" fill="#F73859" opacity="1"/>
-<text x="722.0" y="167.0" class="m" font-size="9.5" text-anchor="start" fill="#C9D1D9" >26.1%</text>
+<text x="722.0" y="167.0" class="m" font-size="9.5" text-anchor="start" fill="#C9D1D9" >26.0%</text>
 <rect x="604" y="182" width="110" height="10" rx="2" fill="#21262D"/>
-<rect class="growx" x="604" y="182" width="41.02" height="10" rx="2" fill="#F73859" opacity="0.5"/>
-<text x="722.0" y="191.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >9.7%</text>
+<rect class="growx" x="604" y="182" width="42.88" height="10" rx="2" fill="#F73859" opacity="0.5"/>
+<text x="722.0" y="191.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >10.1%</text>
 <rect x="604" y="206" width="110" height="10" rx="2" fill="#21262D"/>
 <rect class="growx" x="604" y="206" width="16.78" height="10" rx="2" fill="#F73859" opacity="0.5"/>
 <text x="722.0" y="215.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >4.0%</text>
 <rect x="604" y="230" width="110" height="10" rx="2" fill="#21262D"/>
 <rect class="growx" x="604" y="230" width="93.22" height="10" rx="2" fill="#F73859" opacity="0.5"/>
-<text x="722.0" y="239.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >22.1%</text>
+<text x="722.0" y="239.0" class="m" font-size="9.5" text-anchor="start" fill="#8B949E" >22.0%</text>
 <g class="fade" style="animation-delay:0.3s"><text x="878.0" y="84.0" class="lbl" font-size="8.5" text-anchor="end" >PEAK WEEKDAY</text><text x="878.0" y="108.0" class="v" font-size="20" text-anchor="end" fill="#F0F6FC" >Thu</text><text x="878.0" y="122.0" class="m" font-size="9" text-anchor="end" >26% of output</text></g>
 <g class="fade" style="animation-delay:0.4s"><text x="878.0" y="142.0" class="lbl" font-size="8.5" text-anchor="end" >WEEKEND SHARE</text><text x="878.0" y="166.0" class="v" font-size="20" text-anchor="end" fill="#F0F6FC" >26%</text><text x="878.0" y="180.0" class="m" font-size="9" text-anchor="end" >uniform = 28.6%</text></g>
 <g class="fade" style="animation-delay:0.5s"><text x="878.0" y="200.0" class="lbl" font-size="8.5" text-anchor="end" >HOTTEST CELL</text><text x="878.0" y="224.0" class="v" font-size="20" text-anchor="end" fill="#F0F6FC" >47</text><text x="878.0" y="238.0" class="m" font-size="9" text-anchor="end" >Suns · Jul '26</text></g>
