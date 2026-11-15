@@ -118,6 +118,51 @@ me = Engineer()
 <img src="analytics/divider.svg" width="100%" alt=""/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════
+     🚀 FEATURED PROJECT — proof of work before the analytics
+     ═══════════════════════════════════════════════════════════════════════════ -->
+
+### 🚀 Featured Project — Calci
+
+<img src="https://raw.githubusercontent.com/flamekaizen/CALCI-W/main/public/icons/icon-256.png" width="56" alt="Calci logo"/>
+
+**An all-in-one advanced calculator — one TypeScript maths engine, shipped to web, desktop and mobile.**
+
+<sub><code>15 MODES</code> · <code>CAS</code> · <code>2D / IMPLICIT / POLAR / 3D GRAPHING</code> · <code>64-DIGIT PRECISION</code> · <code>STATS TESTS</code> · <code>FINANCE</code> · <code>REST API + SDK</code> · <code>OFFLINE</code></sub>
+
+<br/><br/>
+
+<a href="https://calci-web.vercel.app"><img src="https://raw.githubusercontent.com/flamekaizen/CALCI-D/main/docs/screenshots/desktop-graph.png" alt="Calci graphing mode in the desktop app" width="88%"/></a>
+
+<table>
+  <tr>
+    <th width="33%">🌐 Web</th>
+    <th width="33%">🖥️ Desktop</th>
+    <th width="33%">📱 Mobile</th>
+  </tr>
+  <tr>
+    <td align="center">React + Vite PWA with a REST API, JS SDK and <code>&lt;calci-calculator&gt;</code> web component</td>
+    <td align="center">Electron app for Windows, macOS &amp; Linux with mini mode and a global hotkey</td>
+    <td align="center">Capacitor app for Android &amp; iOS with haptics and a phone-first layout</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://calci-web.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE_DEMO-F73859?style=flat-square" alt="Live demo"/></a>
+      <a href="https://github.com/flamekaizen/CALCI-W"><img src="https://img.shields.io/badge/CODE-0D1117?style=flat-square&logo=github" alt="CALCI-W source"/></a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/flamekaizen/CALCI-D/releases/latest"><img src="https://img.shields.io/badge/⬇_DOWNLOAD-F73859?style=flat-square" alt="Download desktop app"/></a>
+      <a href="https://github.com/flamekaizen/CALCI-D"><img src="https://img.shields.io/badge/CODE-0D1117?style=flat-square&logo=github" alt="CALCI-D source"/></a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/flamekaizen/CALCI-M/releases/latest"><img src="https://img.shields.io/badge/⬇_APK-F73859?style=flat-square" alt="Download Android APK"/></a>
+      <a href="https://github.com/flamekaizen/CALCI-M"><img src="https://img.shields.io/badge/CODE-0D1117?style=flat-square&logo=github" alt="CALCI-M source"/></a>
+    </td>
+  </tr>
+</table>
+
+<img src="analytics/divider.svg" width="100%" alt=""/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
      📡 MISSION CONTROL — SELF-HOSTED ANALYTICS
      Rendered by scripts/generate_analytics.py (GitHub Actions, every 6 h).
      Each panel answers exactly one question — no chart repeats another.
